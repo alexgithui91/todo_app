@@ -10,7 +10,7 @@ from todo import (
     __app_name__,
     __version__,
     cli,
-    rptodo,
+    todo,
 )
 
 
