@@ -14,15 +14,14 @@
 
 ## General Information
 
-- C.R.U.D operations on a set of to-do list items
-
-
+* C.R.U.D operations on a set of to-do list items
 
 ## Technologies Used
-- Version 0.1.0
 
+* Version 0.1.0
 
 ## Features
+
 List the ready features here:
 
 | Command            | Description                                                  |
@@ -34,34 +33,35 @@ List the ready features here:
 | `remove TODO_ID`   | Removes a to-do from the database using its `TODO_ID`.       |
 | `clear`            | Removes all the to-dos by clearing the database.             |
 
-
 ## Setup
-- Setup and Activate Python venv
-- Install dependencies
-  - `python -m pip install -r requirements.txt`
 
+* Setup and Activate Python venv
+
+* Install dependencies
+  * `python -m pip install -r requirements.txt`
 
 ## Usage
+
 How does one go about using it?
 
-- Initialize the application
-  - `python -m todo init`
-- Get help
-  - `python -m todo --help`
+* Initialize the application
+  * `python -m todo init`
+* Get help
+  * `python -m todo --help`
 
-- Add to-do item
-  - `python -m todo add Get some milk -p 1`
-  - `python -m todo add Clean the house --priority 3`
-- List items
-  - `python -m todo list`
-- Mark to-do item as completed
-  - `python -m todo complete 1`
+* Add to-do item
+  * `python -m todo add Get some milk -p 1`
+  * `python -m todo add Clean the house --priority 3`
+* List items
+  * `python -m todo list`
+* Mark to-do item as completed
+  * `python -m todo complete 1`
 
-- Remove to-do item
-  - `python -m todo remove 1`
-- Clear all to-do items
-  - `python -m todo clear`
-
+* Remove to-do item
+  * `python -m todo remove 1`
+* Clear all to-do items
+  * `python -m todo clear`
 
 ## Project Status
+
 Project is: _in progress_
