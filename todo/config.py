@@ -1,18 +1,18 @@
-"""This module provides the To-Do config functionality."""
-# todo/config.py
+"""This module provides the RP To-Do config functionality."""
 
 import configparser
-import typer
 from pathlib import Path
-from todo import DB_WRITE_ERROR, DIR_ERROR, FILE_ERROR, SUCCESS, __app_name__
 
+import typer
+
+from todo import DB_WRITE_ERROR, DIR_ERROR, FILE_ERROR, SUCCESS, __app_name__
 
 CONFIG_DIR_PATH = Path(typer.get_app_dir(__app_name__))
 CONFIG_FILE_PATH = CONFIG_DIR_PATH / "config.ini"
 
 
 def init_app(db_path: str) -> int:
-    """Initialize the application"""
+    """Initialize the application."""
     config_code = _init_config_file()
     if config_code != SUCCESS:
         return config_code
