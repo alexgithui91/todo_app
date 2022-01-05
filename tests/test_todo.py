@@ -3,7 +3,7 @@ import json
 import pytest
 from typer.testing import CliRunner
 
-from rptodo import (
+from todo import (
     DB_READ_ERROR,
     ID_ERROR,
     SUCCESS,
